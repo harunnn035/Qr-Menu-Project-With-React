@@ -4,7 +4,9 @@ import Food from './pages/food/Food';
 import Sign from './pages/sign/Sign';
 import Order from './pages/order/Order';
 import Menu from './pages/menu/Menu';
+import './styles/global.scss';
 import './styles/main.scss';
+
 function App() {
   return (
     <div className="App">
