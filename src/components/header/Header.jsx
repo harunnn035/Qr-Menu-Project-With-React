@@ -9,7 +9,7 @@ export default function Header() {
               <BiMenu /> 
              </div >
              <div className='header__layout__info'>
-             <div className="flex">
+             <div className="flex gap-20 header__layout__info__clock">
               <div>
                 <div>Açılış Saati:</div>
                 <div>Kapanış Saati:</div>
@@ -19,11 +19,12 @@ export default function Header() {
                 <div>23:30</div>
               </div>
               </div>
-              <div>AdresAdresAdresAdresAdres
+              <div className="header__layout__info__address" >AdresAdresAdresAdresAdres
                 AdresAdresAdresAdresAdresAdres</div>
                 
              </div>
        </div>
+       <div className="header__lang">TR</div>
 </div>
   )
 }

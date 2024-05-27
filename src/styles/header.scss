@@ -1,9 +1,14 @@
 @import '_variables.scss';
 
 .header{
-    &__layout{
+    position: relative;
+    &__layout{display: flex;
+   
           &__icon{
        position: relative; 
+       width: 150px;
+       height:150px;
+     flex: 1 1 40%;
      
 svg{
     position: relative; 
@@ -25,15 +30,38 @@ height: 200px;
 border-radius: 50%;
 background-color: $main-color;
 position:absolute;
-left: -25%;
-top:-50px;
+left: -87%;
+top:-57px;
+
 
 
        }
     }
     &__info{
-        color: #ffffff;
-        
+        color: $secondart-text-color;
+ margin-top:20px;
+
+ &__address{
+    margin-top: 10px;
+    font-size: 12px;
+ }
+
+ &__clock{
+    font-size: 15px;
+ }
     }
+   
+    }
+    &__lang{
+        color: #fff;
+        position: absolute;
+     top:0;
+     right: 0;
+        background-color: $main-color;
+        color: $text-color;
+        font-size: 15px;
+        padding: 8px;
+        font-weight: bold;
+        border-radius: 0 0 0 12px ;
   }
 }
