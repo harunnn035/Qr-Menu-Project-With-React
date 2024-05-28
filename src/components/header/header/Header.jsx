@@ -23,8 +23,10 @@ export default function Header() {
                 AdresAdresAdresAdresAdresAdres</div>
                 
              </div>
+             <div className="header__layout__lang">TR</div>
+            
        </div>
-       <div className="header__lang">TR</div>
+       <figure className='header__logo' ><img src="assets/image/logo.svg" alt="" /></figure>
 </div>
   )
 }

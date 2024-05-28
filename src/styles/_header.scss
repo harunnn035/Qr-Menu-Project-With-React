@@ -8,7 +8,7 @@
        position: relative; 
        width: 150px;
        height:150px;
-     flex: 1 1 40%;
+     flex: 1 1 50%;
      
 svg{
     position: relative; 
@@ -43,25 +43,33 @@ top:-57px;
 
  &__address{
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 14px;
+    width: 100%;
  }
 
  &__clock{
-    font-size: 15px;
+    font-size: 16px;
  }
-    }
-   
+ 
     }
     &__lang{
-        color: #fff;
-        position: absolute;
-     top:0;
-     right: 0;
-        background-color: $main-color;
-        color: $text-color;
-        font-size: 15px;
-        padding: 8px;
-        font-weight: bold;
-        border-radius: 0 0 0 12px ;
+      color: #fff;
+      position: absolute;
+   top:10;
+   right: 15px;
+      background-color: $main-color;
+      color: $text-color;
+      font-size: 15px;
+      padding: 8px;
+      font-weight: bold;
+      border-radius: 0 0 0 12px ;
+}
+    }
+  &__logo{
+   img{
+      width: 100%;
+   }
   }
+
+
 }

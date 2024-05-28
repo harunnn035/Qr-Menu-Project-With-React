@@ -7,6 +7,7 @@ import Menu from './pages/menu/Menu';
 import './styles/global.scss';
 import './styles/main.scss';
 
+
 function App() {
   return (
     <div className="App">

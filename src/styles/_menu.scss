@@ -1,0 +1,12 @@
+.menu{
+    color:#fff;
+display: flex;
+flex-wrap: wrap;
+gap:20px;
+padding: 20px;
+
+
+&__item{
+background-image: url(../../public/assets/image/ana_yemek.svg);
+}
+}
