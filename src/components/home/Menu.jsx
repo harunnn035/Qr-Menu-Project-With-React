@@ -21,7 +21,7 @@ export default function Menu() {
       </div>
 
       <div className="menu__item" >
-      <div className="menu__item__header" >İkramlarımız</div>
+      <div className="menu__item__header menu__item__header--font-32" >İkramlarımız</div>
       </div>
 
     </div>

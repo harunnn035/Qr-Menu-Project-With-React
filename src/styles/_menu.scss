@@ -32,7 +32,11 @@ top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 font-weight: bold;
+font-size: 24px;
 
+&--font-32{
+    font-size: 30px;
+}
 
 }
 }
