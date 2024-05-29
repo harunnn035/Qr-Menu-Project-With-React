@@ -26,7 +26,7 @@ export default function Header() {
              <div className="header__layout__lang">TR</div>
             
        </div>
-       <figure className='header__logo' ><img src="assets/image/logo.svg" alt="" /></figure>
+       <figure className='header__logo' ><img src="assets/image/log.jpg" alt="" /></figure>
 </div>
   )
 }
