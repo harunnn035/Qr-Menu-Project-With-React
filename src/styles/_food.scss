@@ -53,3 +53,26 @@
         margin-top: 30px;
     }
 }
+
+/*Yiyeceklere ait olan css kodları*/
+.snack-container {
+&__item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+background-color:  #fff;
+border-radius: 6px;
+overflow: hidden;
+
+
+    &__price{
+    position: absolute;
+right: 0;
+top: 0;
+background-color: red;
+padding: 5px;
+}
+
+}
+}

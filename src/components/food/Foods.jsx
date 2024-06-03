@@ -2,8 +2,9 @@ export default function Foods() {
   return (
     <div className="snack-container">
       <div className="snack-container__item">
-      <figure><img src="" alt="yemek" /></figure>
-      <div className="snack-container__item__contect">
+        <span className="snack-container__item__price" >180₺</span>
+      <figure><img src="assets/image/ana_yemek.svg" alt="yemek" /></figure>
+      <div className="snack-container__item__content">
       <div className="snack-container__item__content__header">Karışık Izgara</div>
       <div className="snack-container__item__content__food-info ">
 <div className="snack-container__item__content__food-info__header" >İçindekiler</div>
@@ -16,6 +17,7 @@ export default function Foods() {
 </ul>
       </div>
       </div>
+      <div className="snack-container__item__add-card"><button>Sepete Ekle</button></div>
       </div>
     </div>
   )
