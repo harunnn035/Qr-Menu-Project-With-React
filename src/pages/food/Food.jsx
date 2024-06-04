@@ -1,6 +1,7 @@
   import React, { useState } from 'react'
   import TabMenu from '../../components/tabMenu/TabMenu'
   import Foods from '../../components/food/Foods';
+  import {Link} from 'react-router-dom';
 
 
   export default function Food() {
@@ -19,7 +20,11 @@
           <div style={selectButton === '4' ? { display: "block" } : { display: "none" }} className='dessert'>Tatlı</div>
 
         </div>
-      
+      <div className='food_card' >
+
+        <div>Toplam:360 ₺</div>
+        <div><Link to="/">Sepeti Görüntüle</Link></div>
+      </div>
       </div>
       
 
