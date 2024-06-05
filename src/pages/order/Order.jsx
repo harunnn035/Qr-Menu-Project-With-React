@@ -1,10 +1,10 @@
-import React from 'react'
-
+import FoodList from "../../components/order/FoodList";
+import Price from "../../components/order/Price";
 export default function Order() {
   return (
-    <div>
-      Order
-      
+    <div className="order">
+        <FoodList />
+        <Price />
     </div>
   )
 }
