@@ -28,6 +28,19 @@
     }
 }
 
+.food-container{
+    width: 100%;
+    height: 10%;
+    background-color: palegreen;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.food-right{
+    background-color: goldenrodblue;
+}
+.food-right{
+    background-color: aqua;
+}
 #ara-yemek:checked~.tab-menu::before {
     left: 34%;
 }
@@ -62,12 +75,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: $main-color;
+        background-color: $main-color!important;
         padding: 20px;
 
         div {
             color: $text-color;
             font-weight: 600;
+            background-color: $main-color!important;
         }
 
         &__price-header {
@@ -80,8 +94,10 @@
 
         &__direct-card {
             a {
-                color: $text-color;
+                color: #dddaaa;
+                background-color: none !important;
             }
+            
         }
     }
 }
@@ -89,88 +105,3 @@
 
 /* Yiyeceklere ait olan css kodları */
 
-.snack-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    &__item {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        position: relative;
-        background-color: #fff;
-        border-radius: 6px;
-        overflow: hidden;
-
-        &:last-of-type{
-            margin-bottom: 80px;
-        }
-
-        &__price {
-            position: absolute;
-            right: 0;
-            top: 0;
-            background-color: $main-color;
-            color: $text-color;
-            padding: 5px 10px;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        &__content {
-            &__header {
-                color: $text-color;
-                font-size: 16px;
-                font-weight: bold;
-            }
-
-            &__food-info {
-                &__header {
-                    color: $text-color;
-                    font-size: 13px;
-                    margin: 5px 0;
-                    font-weight: 500;
-                }
-
-                ul {
-                    li {
-                        position: relative;
-                        font-size: 11px;
-                        color: $secondary-text-color;
-                        margin-left: 10px;
-
-                        &::before {
-                            content: "";
-                            position: absolute;
-                            left: -10px;
-                            top: 50%;
-                            transform: translateY(-50%);
-                            width: 6px;
-                            height: 6px;
-                            background-color: $main-color;
-                            border-radius: 50%;
-                        }
-                    }
-                }
-            }
-
-        }
-
-        &__add-card {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-
-            button {
-                background-color: $main-color;
-                border: none;
-                font-size: 13px;
-                font-weight: bold;
-                padding: 5px 15px;
-                border-top-left-radius: 6px;
-                color: $text-color;
-            }
-        }
-    }
-}
